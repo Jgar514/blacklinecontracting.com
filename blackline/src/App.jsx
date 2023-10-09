@@ -8,7 +8,7 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<div className="container">
+			<div className="w-full h-screen">
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/pricing" element={<Pricing />} />
