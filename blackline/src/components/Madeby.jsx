@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineMail } from "react-icons/Ai";
+import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
 
 function Madeby() {
 	return (
