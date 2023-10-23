@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFlagUsa } from "react-icons/Fa";
+import { FaFlagUsa } from "react-icons/fa";
 import { BsBuildings } from "react-icons/bs";
 import { BsHouseDoor } from "react-icons/bs";
 
