@@ -1,7 +1,6 @@
 import React from "react";
 import { FaFlagUsa } from "react-icons/fa";
-import { BsBuildings } from "react-icons/bs";
-import { BsHouseDoor } from "react-icons/bs";
+import { BsBuildings, BsHouseDoor } from "react-icons/bs";
 
 function BelowHero() {
 	return (
