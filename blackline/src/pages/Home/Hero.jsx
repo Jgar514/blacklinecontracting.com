@@ -15,14 +15,11 @@ function Hero() {
 							<p className="py-2 mt-2">
 								<a
 									className="bg-white/70 border-2 mb-3 inline-flex justify-center items-center rounded border-black px-6 py-2 font-bold text-black shadow-md transition duration-200 md:mr-4 md:w-auto uppercase"
-									href="#contact" // Replace with your link
+									href=" /contact" // Replace with your link
 								>
 									Free Quote
 								</a>
-								<a
-									className="inline-flex text-black justify-center items-center font-bold hover:underline bg-white/60 py-2 mr-2 px-2"
-									href="#about" // Replace with your link
-								>
+								<a className="inline-flex text-black justify-center items-center font-bold hover:underline bg-white/60 py-2 mr-2 px-2" href="/about">
 									<span className="bg-white/50 mr-2 ml-2 underline">About Us</span>
 									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="3.5" stroke="black" className="h-4 w-4">
 										<path strokeLinecap="round" d="M8.25 4.5l7.5 7.5-7.5 7.5"></path>

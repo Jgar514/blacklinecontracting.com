@@ -26,7 +26,9 @@ function Home() {
 				<Works />
 				<div className="flex justify-center my-2">
 					<p className="py-2">
-						<a className="bg-white/30 border-1 mb-3 inline-flex justify-center items-center rounded border-2 border-black px-6 py-2 font-bold text-black shadow-md transition duration-200 md:mr-4 md:w-auto uppercase">All Services</a>
+						<a className="bg-white/30 border-1 mb-3 inline-flex justify-center items-center rounded border-2 border-black px-6 py-2 font-bold text-black shadow-md transition duration-200 md:mr-4 md:w-auto uppercase" href="./services">
+							All Services
+						</a>
 					</p>
 				</div>
 			</div>
@@ -36,8 +38,9 @@ function Home() {
 					<FillerHeading className="mb-4 text-center" heading="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
 
 					<Slider className="mb-8" />
-
-					<Button className="w-full">Project Gallery</Button>
+					<a href="./gallery">
+						<Button className="w-full">Project Gallery</Button>
+					</a>
 
 					<div className="mt-4 py-4">
 						<FillerHeading heading="Serving The DMV" p="We cover counties in Maryland, D.C. and Virginia" />

@@ -5,7 +5,7 @@ import { business } from "../../data/data";
 
 function Footer() {
 	return (
-		<div className="bg-black h-auto py-4 w-full flex flex-col gap-y-4">
+		<div className="bg-black h-auto py-4 w-full flex flex-col gap-y-4 items-center">
 			<h1 className="text-white text-3xl">Contact Us</h1>
 
 			{/* Author */}
@@ -15,7 +15,7 @@ function Footer() {
 
 			{/* End Author */}
 
-			<div className="text-white flex flex-col gap-y-4">
+			<div className="text-white flex flex-col gap-y-4 py-10">
 				{/* Name and About */}
 				<div>
 					<h1 className="text-xl">{business.name}</h1>

@@ -43,7 +43,9 @@ const Nav = () => {
 							</a>
 						</li>
 					))}
-					<Button>Get Started</Button>
+					<a href="./contact">
+						<Button>Get Started</Button>
+					</a>
 				</ul>
 			</div>
 			<div className="mt-2">
