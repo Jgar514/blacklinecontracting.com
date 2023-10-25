@@ -1,12 +1,13 @@
 import React from "react";
 import { types } from "../../data/overview";
+import Button from "./Button"; // Import your Button component
 
-const ProjectCard = ({ index, name, img }) => {
+const ProjectCard = ({ name, img }) => {
 	return (
-		<div className="flex flex-col w-full items-center  bg-white mt-0 px-8 py-8">
-			<div className=" bg-cover bg-center flex   items-end m justify-center h-96 md:h-128 w-full mt-0 py-6 " style={{ backgroundImage: `url(${img})` }}>
-				<div>
-					<h1 className="text-white text-5xl p-4 mb-6 bg-black/50 ">{name}</h1>
+		<div className="w-full md:w-1/2 lg:w-1/3 p-4">
+			<div className="bg-white rounded-lg shadow-md overflow-hidden">
+				<div className="w-full h-80 md:h-96 bg-cover bg-center relative" style={{ backgroundImage: `url(${img})` }}>
+					<div className="bg-black bg-opacity-50 text-white text-4xl py-4 px-4 absolute bottom-0 left-0 w-full text-center">{name}</div>
 				</div>
 			</div>
 		</div>
@@ -15,15 +16,19 @@ const ProjectCard = ({ index, name, img }) => {
 
 const ServingCard = () => {
 	return (
-		<>
-			<div id="works" className="h-full w-full  flex flex-wrap  justify-center py-0 mt-0">
-				<div className="mt-0 flex justify-evenly   flex-wrap gap-2 w-full">
+		<div id="works" className="h-full w-full py-8">
+			<div className="container mx-auto">
+				<h2 className="text-4xl font-bold text-center mb-4">Services</h2>
+				<div className="flex flex-wrap">
 					{types.map((project, index) => (
-						<ProjectCard key={`project-${index}`} index={index} {...project} />
+						<ProjectCard key={`project-${index}`} {...project} />
 					))}
 				</div>
+				<div className="text-center mt-6">
+					<Button to="/services">All Services</Button>
+				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 

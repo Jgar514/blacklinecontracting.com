@@ -1,14 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Button = (props) => {
-	return (
-		<div className="flex justify-center my-2">
-			
-				<p className="py-2">
-					<a className="bg-white/30 border-1 mb-3 inline-flex justify-center items-center rounded border-2 border-black px-6 py-2 font-bold text-black shadow-md transition duration-200 md:mr-4 md:w-auto uppercase">{props.children}</a>
-				</p>
-			
-		</div>
+const Button = ({ to, children, primary = true }) => {
+	const buttonClasses = `
+    px-4 py-2 rounded shadow-md transition duration-200 text-lg font-bold focus:outline-none
+    ${primary ? "bg-gray-50 text-black hover:bg-blue-700 border-2 border-black" : "bg-[#FEBD16] text-black  border-black border-2 hover:bg-gray-100"}
+    text-base
+  `;
+
+	return to ? (
+		<Link
+			to={to}
+			className={buttonClasses}
+			onClick={() => {
+				window.scrollTo(0, 0); // Scroll to the top when the link is clicked
+			}}
+		>
+			{children}
+		</Link>
+	) : (
+		<button className={buttonClasses}>{children}</button>
 	);
 };
 

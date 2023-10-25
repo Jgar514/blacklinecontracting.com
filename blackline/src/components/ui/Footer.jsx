@@ -2,7 +2,8 @@ import React from "react";
 import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
 import Madeby from "./Madeby";
 import { business } from "../../data/data";
-
+import Button from "./Button";
+import { Link } from "react-router-dom";
 function Footer() {
 	return (
 		<div className="bg-black h-auto py-4 w-full flex flex-col gap-y-4 items-center">
