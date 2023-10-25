@@ -1,5 +1,5 @@
 import React from "react";
-import { types } from "../data/overview";
+import { types } from "../../data/overview";
 
 const ProjectCard = ({ index, name, img }) => {
 	return (

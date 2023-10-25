@@ -1,5 +1,5 @@
-import { services } from "../data/services.js";
-import { getImageUrl } from "./utils.js";
+import { services } from "../../data/services.js";
+import { getImageUrl } from "../../utils/utils.js";
 import Slider from "./Slider.jsx";
 
 export default function List() {

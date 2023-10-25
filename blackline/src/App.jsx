@@ -1,12 +1,13 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/ui/Navbar";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Footer from "./components/Footer";
-import Gallery from "./pages/Gallery";
-import Services from "./pages/Services";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Footer from "./components/ui/Footer";
+import Gallery from "./pages/Gallery/Gallery";
+import Services from "./pages/Services/Services";
 import { Route, Routes } from "react-router-dom";
-import Contact from "./components/Contact";
+import Contact from "./components/forms/Contact";
+import ContactPage from "./pages/Contact/ContactPage";
 function App() {
 	return (
 		<>
@@ -21,7 +22,7 @@ function App() {
 					<Route path="/services" element={<Services />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/gallery" element={<Gallery />} />
-					<Route path="/contact" element={<Contact />} />
+					<Route path="/contact" element={<ContactPage />} />
 				</Routes>
 			</div>
 			<Footer />

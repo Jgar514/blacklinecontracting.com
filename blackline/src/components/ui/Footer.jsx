@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
 import Madeby from "./Madeby";
-import { business } from "../data/data";
+import { business } from "../../data/data";
 
 function Footer() {
 	return (

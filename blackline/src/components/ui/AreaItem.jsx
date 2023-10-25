@@ -1,5 +1,5 @@
 import React from "react";
-import areas from "../data/areas";
+import areas from "../../data/areas";
 
 function AreaItem({ state, counties, imgUrl, index }) {
 	return (
@@ -15,8 +15,7 @@ function AreaItem({ state, counties, imgUrl, index }) {
 							<span key={Any_name} className=" gap-x-2 px-0">
 								{item}
 							</span>
-						))
-						}
+						))}
 					</div>
 				</div>
 			</div>

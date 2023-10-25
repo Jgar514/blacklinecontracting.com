@@ -1,6 +1,6 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import { scif, cabinets, dumptruck, fans, fdicstudio, glassroom, podcaststudio } from "../assets";
+import { scif, cabinets, dumptruck, fans, fdicstudio, glassroom, podcaststudio } from "../../assets";
 
 function Slider() {
 	const [sliderRef] = useKeenSlider({
@@ -40,6 +40,6 @@ function Slider() {
 		</>
 	);
 }
-import { hero } from "../assets";
+import { hero } from "../../assets";
 
 export default Slider;

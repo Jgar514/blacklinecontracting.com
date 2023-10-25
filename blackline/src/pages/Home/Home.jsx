@@ -1,17 +1,17 @@
 import React from "react";
 
-import Works from "../components/ImageCard";
-import Button from "../components/Button";
+import Works from "../../components/ui/ImageCard";
+import Button from "../../components/ui/Button";
 
-import Ticker from "../components/Ticker";
-import Areas from "../components/Areas";
+import Ticker from "../../components/ui/Ticker";
+import Areas from "../../components/ui/Areas";
 
-import Slider from "../components/Slider";
+import Slider from "../../components/ui/Slider";
 
-import Hero from "../components/Hero";
-import BelowHero from "../components/BelowHero";
-import FillerHeading from "../components/FillerHeading";
-import Contact from "../components/Contact";
+import Hero from "./Hero";
+import BelowHero from "./BelowHero";
+import FillerHeading from "../../components/ui/FillerHeading";
+import Contact from "../../components/forms/Contact";
 function Home() {
 	return (
 		<>
@@ -33,9 +33,12 @@ function Home() {
 
 			<div className="container mx-auto mt-2 mb-2 md:mt-14 lg:mt-14  ">
 				<div className="flex flex-col items-center justify-center gap-0">
-					<FillerHeading heading="More Projects" p="We take pride in our projects. Feel free to reach out with any questions" />
-					<Slider />
-					<Button>Project Gallery</Button>
+					<FillerHeading className="mb-4 text-center" heading="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
+
+					<Slider className="mb-8" />
+
+					<Button className="w-full">Project Gallery</Button>
+
 					<div className="mt-4 py-4">
 						<FillerHeading heading="Serving The DMV" p="We cover counties in Maryland, D.C. and Virginia" />
 						<Areas />

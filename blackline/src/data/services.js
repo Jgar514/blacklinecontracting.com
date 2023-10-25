@@ -15,7 +15,7 @@ export const services = [
 	},
 	{
 		id: 2,
-		name: "Office Renovation",
+		name: "Tenant Improvement",
 		profession: "physicist",
 		accomplishment: "electromagnetism theory",
 		imageId: "bE7W1ji",

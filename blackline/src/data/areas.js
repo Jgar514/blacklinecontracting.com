@@ -10,14 +10,14 @@ export default [
 	{
 		index: 1,
 		state: "Maryland",
-		counties: ["Allegany", "Anne Arundel", "Baltimore", "Calvert", "Caroline", "Carroll", "Cecil", "Charles", "Dorchester", "Frederick", "Garrett", "Harford", "Howard", "Kent", "Montgomery", "Prince George's", "Queen Anne's", "Somerset", "St. Mary's", "Talbot", "Washington", "Wicomico", "Worcester", "Baltimore City "],
+		counties: ["Allegany", "Anne Arundel", "Baltimore", "Calvert", "Caroline", "Carroll", "Cecil", "Charles", "Dorchester", "Frederick", "Garrett", "Harford", "Howard", "Kent", "Montgomery", "PG", "Queen Anne's", "Somerset", "St. Mary's", "Talbot", "Washington", "Wicomico", "Worcester", "Baltimore City "],
 
 		imgUrl: maryland,
 	},
 	{
 		index: 2,
 		state: "Virginia",
-		counties: ["Arlington", "Fairfax", "Loudoun", "Prince William", "Alexandria ", "Falls Church ", "Manassas ", "Manassas Park ", "Fredericksburg "],
+		counties: ["Arlington", "Fairfax", "Loudoun", "Prince William", "Alexandria ", "Falls Church ", "Manassas ", "F-burg "],
 
 		imgUrl: virginia,
 	},
