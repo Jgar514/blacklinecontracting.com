@@ -1,6 +1,6 @@
 import React from "react";
 import { hero } from "../../assets";
-import Button from "../../components/ui/Button";
+import Button from "../../components/global/Button";
 
 // blacklinecontracting.com / blackline / src / assets / headerimages / hero.jpg;
 

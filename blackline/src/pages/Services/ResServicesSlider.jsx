@@ -1,6 +1,6 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import { residentialservices } from "./allservices";
+import { residentialservices } from "../../data/allservices";
 import SliderItem from "./SliderItem";
 
 function ResServicesSlider() {

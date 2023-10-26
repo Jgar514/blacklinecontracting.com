@@ -2,7 +2,7 @@ import React from "react";
 import { FaFlagUsa } from "react-icons/fa";
 import { BsBuildings, BsHouseDoor } from "react-icons/bs";
 import FillerHeading from "../../components/ui/FillerHeading";
-import Button from "../../components/ui/Button";
+import Button from "../../components/global/Button";
 
 function BelowHero() {
 	return (
@@ -11,17 +11,16 @@ function BelowHero() {
 				<div className="container mx-auto">
 					<FillerHeading heading="Licensed. Insured. Trusted" p="Doing work for families, companies, and our government." />
 				</div>
-			
 
-			<div className="flex flex-col items-center py-0">
-				<div className="h-14 font-xl flex flex-row justify-between px-4 w-full mb-10">
-					<BsHouseDoor className="h-30 w-60 flex" style={{ width: "inherit", height: "inherit" }} />
-					<BsBuildings className="h-30 w-60 flex" style={{ width: "inherit", height: "inherit" }} />
-					<FaFlagUsa className="h-30 w-60 flex" style={{ width: "inherit", height: "inherit" }} />
+				<div className="flex flex-col items-center py-0">
+					<div className="h-14 font-xl flex flex-row justify-between px-4 w-full mb-10">
+						<BsHouseDoor className="h-30 w-60 flex" style={{ width: "inherit", height: "inherit" }} />
+						<BsBuildings className="h-30 w-60 flex" style={{ width: "inherit", height: "inherit" }} />
+						<FaFlagUsa className="h-30 w-60 flex" style={{ width: "inherit", height: "inherit" }} />
+					</div>
+
+					<Button to="/contact">See Customers</Button>
 				</div>
-
-				<Button to="/contact">See Customers</Button>
-			</div>
 			</div>
 		</>
 	);

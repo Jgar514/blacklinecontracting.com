@@ -1,8 +1,8 @@
-import Navbar from "./components/ui/Navbar";
+import Navbar from "./components/global/Navbar";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
-import Footer from "./components/ui/Footer";
+import Footer from "./components/global/Footer";
 import Gallery from "./pages/Gallery/Gallery";
 import Services from "./pages/Services/Services";
 import { Route, Routes } from "react-router-dom";

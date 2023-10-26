@@ -3,6 +3,10 @@ export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
+			colors: {
+				"maryland-red": "#FF6F61",
+				"maryland-gold": "#FFD600",
+			},
 			animation: {
 				marquee: "marquee 20s linear infinite",
 				marquee2: "marquee2 20s linear infinite",

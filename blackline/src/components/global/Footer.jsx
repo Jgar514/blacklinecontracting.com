@@ -1,8 +1,8 @@
 import React from "react";
 import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
-import Madeby from "./Madeby";
+import Madeby from "../ui/Madeby";
 import { business } from "../../data/data";
-import Button from "./Button";
+import Button from "../global/Button";
 import { Link } from "react-router-dom";
 function Footer() {
 	return (

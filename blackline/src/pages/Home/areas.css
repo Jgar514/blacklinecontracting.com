@@ -1,0 +1,5 @@
+maryland-flag.css .maryland-flag {
+	width: full;
+	height: auto;
+	background: linear-gradient(225deg, #ffd200 25%, #000000 25%, #000000 50%, #ffd200 50%, #ffd200 75%, #000000 75%, #000000 100%);
+}

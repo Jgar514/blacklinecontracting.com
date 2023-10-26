@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/ui/Header";
+import Header from "../../components/global/Header";
 import Contact from "../../components/forms/Contact";
 
 function About() {
@@ -75,7 +75,9 @@ function About() {
 					</p>
 				</div>
 			</section>
-			<Contact />
+			<div className=" bg-gray-100 pb-8">
+				<Contact />
+			</div>
 		</>
 	);
 }

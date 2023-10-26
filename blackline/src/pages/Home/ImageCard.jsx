@@ -1,6 +1,6 @@
 import React from "react";
 import { types } from "../../data/overview";
-import Button from "./Button"; // Import your Button component
+import Button from "../../components/global/Button"; // Import your Button component
 
 const ProjectCard = ({ name, img }) => {
 	return (

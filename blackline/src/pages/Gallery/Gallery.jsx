@@ -1,7 +1,7 @@
 import React from "react";
 import GalleryItem from "./GalleryItem";
 import gallery from "../../data/gallery";
-import Header from "../../components/ui/Header";
+import Header from "../../components/global/Header";
 import Contact from "../../components/forms/Contact";
 function Gallery() {
 	return (

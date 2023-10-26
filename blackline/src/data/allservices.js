@@ -1,4 +1,4 @@
-import { hero, building, misc, maryland, virginia, blankdc, scif, cabinets, dumptruck, fans, fdicstudio, glassroom, podcaststudio, burnedwall, fullhouse, kitchen, tempwall } from "../../assets";
+import { hero, building, misc, maryland, virginia, blankdc, scif, cabinets, dumptruck, fans, fdicstudio, glassroom, podcaststudio, burnedwall, fullhouse, kitchen, tempwall } from "../assets";
 
 const commercialservices = [
 	{

@@ -1,10 +1,9 @@
 import React from "react";
 
-import Works from "../../components/ui/ImageCard";
-import Button from "../../components/ui/Button";
+import Works from "./ImageCard";
+import Button from "../../components/global/Button";
 
-import Ticker from "../../components/ui/Ticker";
-import Areas from "../../components/ui/Areas";
+import Ticker from "../../components/global/Ticker";
 
 import Slider from "../../components/ui/Slider";
 
@@ -12,6 +11,7 @@ import Hero from "./Hero";
 import BelowHero from "./BelowHero";
 import FillerHeading from "../../components/ui/FillerHeading";
 import Contact from "../../components/forms/Contact";
+import Areas from "./Areas";
 function Home() {
 	return (
 		<>
@@ -26,15 +26,11 @@ function Home() {
 
 					<Slider className="mb-8" />
 					<Button to="/gallery">Project Gallery</Button>
-
-					<div className="mt-4 py-4">
-						<FillerHeading heading="Serving The DMV" p="We cover counties in Maryland, D.C. and Virginia" />
-						<Areas />
-					</div>
+					<Areas />
 
 					<FillerHeading />
-					<Contact />
 				</div>
+				<Contact />
 			</div>
 		</>
 	);
