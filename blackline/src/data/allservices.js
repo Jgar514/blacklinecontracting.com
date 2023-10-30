@@ -3,113 +3,67 @@ import { hero, building, misc, maryland, virginia, blankdc, scif, cabinets, dump
 const commercialservices = [
 	{
 		index: 1,
-		title: "",
+		title: "Conference Rooms",
 
 		imgUrl: glassroom,
 	},
 	// {
-	// 	index: 2,
-	// 	title: "",
-	// 	imgUrl: fullhouse,
+	// 	index: 1,
+	// 	title: "Water Remediation",
 	// },
-	// {
-	// 	index: 3,
-	// 	title: "",
-	// 	imgUrl: building,
-	// },
-	{
-		index: 4,
-		title: "",
-		imgUrl: misc,
-	},
+
 	{
 		index: 5,
+		title: "Data Protected Scifs",
 		imgUrl: scif,
 	},
 	{
 		index: 6,
-		title: "",
+		title: "cabinet builds",
 		imgUrl: cabinets,
 	},
-	{
-		index: 7,
-		title: "",
-		imgUrl: kitchen,
-	},
+
 	{
 		index: 8,
+		title: "soundproof studios",
 		imgUrl: podcaststudio,
 	},
-	{
-		index: 9,
-		title: "",
-		imgUrl: burnedwall,
-	},
+
 	{
 		index: 10,
-		title: "",
+		title: "podcast studio",
 		imgUrl: fdicstudio,
-	},
-	{
-		index: 11,
-		title: "",
-		imgUrl: tempwall,
 	},
 ];
 
 const residentialservices = [
 	{
 		index: 1,
-		title: "",
+		title: "Interior Walls",
 
 		imgUrl: burnedwall,
 	},
-	// {
-	// 	index: 2,
-	// 	title: "",
-	// 	imgUrl: fullhouse,
-	// },
-	// {
-	// 	index: 3,
-	// 	title: "",
-	// 	imgUrl: building,
-	// },
-	{
-		index: 4,
-		title: "",
-		imgUrl: misc,
-	},
-	{
-		index: 5,
-		imgUrl: scif,
-	},
+
 	{
 		index: 6,
-		title: "",
+		title: "Cabinets",
 		imgUrl: cabinets,
 	},
 	{
 		index: 7,
-		title: "",
+		title: "Electrical",
 		imgUrl: kitchen,
 	},
-	{
-		index: 8,
-		imgUrl: podcaststudio,
-	},
+
 	{
 		index: 9,
-		title: "",
+		title: "custom walls",
 		imgUrl: burnedwall,
 	},
-	{
-		index: 10,
-		title: "",
-		imgUrl: fdicstudio,
-	},
+
 	{
 		index: 11,
-		title: "",
+		title: "temp walls",
 		imgUrl: tempwall,
 	},
 ];
@@ -186,7 +140,7 @@ const resarray = [
 	},
 	{
 		index: 7,
-		title: "Commercial Flooring",
+		title: "Flooring",
 	},
 	{
 		index: 8,

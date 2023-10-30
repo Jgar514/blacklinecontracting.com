@@ -9,8 +9,8 @@ const Nav = () => {
 		{ name: "SERVICES", link: "/services" },
 		{ name: "ABOUT", link: "/about" },
 
-		{ name: "CONTACT", link: "/contact" },
 		{ name: "GALLERY", link: "/gallery" },
+		{ name: "CONTACT", link: "/contact" },
 	];
 	let [open, setOpen] = useState(false);
 	return (

@@ -16,7 +16,7 @@ const ProjectCard = ({ name, img }) => {
 
 const ServingCard = () => {
 	return (
-		<div id="works" className="h-full w-full py-8">
+		<div id="works" className="h-full w-full py-8 bg-gray-100">
 			<div className="container mx-auto">
 				<h2 className="text-4xl font-bold text-center mb-4">Services</h2>
 				<div className="flex flex-wrap">

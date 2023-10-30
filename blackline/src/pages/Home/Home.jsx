@@ -20,15 +20,13 @@ function Home() {
 			<BelowHero />
 			<Works />
 
-			<div className="container mx-auto mt-2 mb-2 md:mt-14 lg:mt-14  ">
-				<div className="flex flex-col items-center justify-center gap-0">
+			<div className="container bg-white py-6 mx-auto mt-0 mb-0 md:mt-14 lg:mt-14  ">
+				<div className="flex flex-col items-center justify-center gap-2">
 					<FillerHeading className="mb-4 text-center" heading="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
 
-					<Slider className="mb-8" />
+					<Slider />
 					<Button to="/gallery">Project Gallery</Button>
 					<Areas />
-
-					<FillerHeading />
 				</div>
 				<Contact />
 			</div>

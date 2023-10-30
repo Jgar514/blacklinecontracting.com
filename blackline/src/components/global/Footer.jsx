@@ -4,9 +4,11 @@ import Madeby from "../ui/Madeby";
 import { business } from "../../data/data";
 import Button from "../global/Button";
 import { Link } from "react-router-dom";
+import FooterItem from "./FooterItem";
+
 function Footer() {
 	return (
-		<div className="bg-black h-auto py-4 w-full flex flex-col gap-y-4 items-center">
+		<div className="bg-black h-auto py-4 w-full flex flex-col gap-y-4 items-center -mt-4">
 			<h1 className="text-white text-3xl">Contact Us</h1>
 
 			{/* Author */}
@@ -14,39 +16,7 @@ function Footer() {
 				<Madeby />
 			</div>
 
-			{/* End Author */}
-
-			<div className="text-white flex flex-col gap-y-4 py-10">
-				{/* Name and About */}
-				<div>
-					<h1 className="text-xl">{business.name}</h1>
-					<p>{business.about}</p>
-				</div>
-				{/* End Name and About */}
-
-				{/* Business Hours */}
-				<div>
-					<h1 className="text-xl">Business Hours</h1>
-					<p>Mon-Fri</p>
-					<p>Sunday</p>
-					<p>Badge maybe</p>
-				</div>
-				{/* End Business Hours */}
-
-				{/* Contact Us */}
-				<div>
-					<h1 className="text-xl">Contact Us</h1>
-					<p>Address</p>
-					<p>{business.phone}</p>
-					<p>Badge maybe</p>
-					<div className="flex flex-row">
-						<AiOutlineLinkedin color="white" size="2em" />
-						<AiOutlineInstagram color="white" size="2em" />
-						<AiOutlineMail color="white" size="2em" />
-					</div>
-				</div>
-				{/* End Contact Us */}
-			</div>
+			<FooterItem name={business.name} about={business.about} hours={business.hours} address={business.address} phone={business.phone} />
 		</div>
 	);
 }
