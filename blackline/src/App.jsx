@@ -11,21 +11,21 @@ import ContactPage from "./pages/Contact/ContactPage";
 function App() {
 	return (
 		<>
-			<div className="bg-white">
+			<div className="bg-white flex flex-col">
 				<Navbar />
-			</div>
 
-			<div className="w-full h-full bg-white mt-8 pt-10 ">
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/home" element={<Home />} />
-					<Route path="/services" element={<Services />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/gallery" element={<Gallery />} />
-					<Route path="/contact" element={<ContactPage />} />
-				</Routes>
+				<div className="w-full h-full bg-white mt-8 pt-10 ">
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/home" element={<Home />} />
+						<Route path="/services" element={<Services />} />
+						<Route path="/about" element={<About />} />
+						<Route path="/gallery" element={<Gallery />} />
+						<Route path="/contact" element={<ContactPage />} />
+					</Routes>
+				</div>
+				<Footer />
 			</div>
-			<Footer />
 		</>
 	);
 }

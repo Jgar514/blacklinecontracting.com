@@ -4,7 +4,7 @@ function Ticker() {
 	return (
 		<div
 			className="bg-[#FEBD16]
-		 mt-0 border-black border-y-2 mb-4 py-0 "
+		 mt-0 border-black border-y-2 mb-0 py-0 "
 		>
 			<div className="relative overflow-x-hidden flex flex-row  ">
 				<div className="px-6 animate-marquee whitespace-nowrap textdecoration-bold text-base text-black font-bold  ">
