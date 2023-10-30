@@ -1,14 +1,21 @@
 import React from "react";
 import { types } from "../../data/overview";
-import Button from "../../components/global/Button"; // Import your Button component
+import Button from "../../components/global/Button";
+import { Link } from "react-router-dom";
+// Import your Button component
 
-const ProjectCard = ({ name, img }) => {
+const ProjectCard = ({ name, img, link }) => {
+	const scrollToTop = () => {
+		window.scrollTo(0, 0);
+	};
 	return (
 		<div className="w-full md:w-1/2 lg:w-1/3 p-4">
 			<div className="bg-white rounded-lg shadow-md overflow-hidden">
-				<div className="w-full h-80 md:h-96 bg-cover bg-center relative" style={{ backgroundImage: `url(${img})` }}>
-					<div className="bg-black bg-opacity-50 text-white text-4xl py-4 px-4 absolute bottom-0 left-0 w-full text-center">{name}</div>
-				</div>
+				<Link to={link}>
+					<div className="w-full h-80 md:h-96 bg-cover bg-center relative" onClick={scrollToTop} style={{ backgroundImage: `url(${img})` }}>
+						<div className="bg-black bg-opacity-50 text-white text-4xl py-4 px-4 absolute bottom-0 left-0 w-full text-center">{name}</div>
+					</div>
+				</Link>
 			</div>
 		</div>
 	);

@@ -61,7 +61,10 @@ const Contact = () => {
 	};
 
 	return (
-		<div className="bg-gray-100 w-full py-2">
+		<div className="bg-gray-100 w-full flex flex-col gap-8">
+			<div className="flex justify-center py-">
+				<h1 className="text-2xl ">- Send Us A Message -</h1>
+			</div>
 			<div className="border-4 px-4 py-8 rounded-xl bg-white border-black flex flex-col shadow-lg mb-8 mx-2 ">
 				<h1 className="text-2xl font-bold -my-2 mb-2">Let's Work Together!</h1>
 				<form ref={formRef} onSubmit={handleSubmit} className="mt-4 flex flex-col gap-4 px-2">

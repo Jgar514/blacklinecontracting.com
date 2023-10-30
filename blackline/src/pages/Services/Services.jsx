@@ -23,37 +23,39 @@ function Services() {
 
 	return (
 		<>
-			<div className="bg-gray-100">
-				<Header title="Services" />
+			<div id="topOfServices">
+				<div className="bg-gray-100">
+					<Header title="Services" />
 
-				<div className="pt-10 bg-gray-100">
-					<div className="mb-8">
-						<div className="bg-gray-100">
-							<h1 className="text-4xl md:text-4xl font-bold text-center underline mb-4">Our Services</h1>
-							<p className="text-lg text-gray-600 text-center mb-8">Explore our wide range of commercial and residential services.</p>
-						</div>
-
-						<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 bg-gray-100">
-							<div className="mt-0 py-6 ">
-								<h2 className="text-3xl font-bold underline mb-0 px-4 py-4 bg-white w-fit border-2 rounded-t-2xl">Commercial</h2>
-								<ul className="grid grid-cols-2 gap-2 pl-6 py-6 bg-white ">{comlistItems}</ul>
-								<div className="bg-white pb-4">
-									<ComServicesSlider />
-								</div>{" "}
-								{/* Move it inside this section */}
+					<div className="pt-10 bg-gray-100 ">
+						<div className="mb-8">
+							<div className="bg-gray-100">
+								<h1 className="text-4xl md:text-4xl font-bold text-center underline mb-4">Our Services</h1>
+								<p className="text-lg text-gray-600 text-center mb-8">Explore our wide range of commercial and residential services.</p>
 							</div>
-							<div className="mt-0 py-6 bg-gray-100 ">
-								<h2 className="text-3xl font-bold underline mb-0 px-4 py-4 bg-white w-fit border-2 rounded-t-2xl">Residential</h2>
-								<ul className="grid grid-cols-2 gap-2 pl-6 py-6 bg-white ">{reslistItems}</ul>
-								<div className="bg-white pb-4">
-									<ResServicesSlider />
+
+							<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 bg-gray-100 ">
+								<div className="mt-0 py-6 ">
+									<h2 className="text-3xl font-bold underline mb-0 px-4 py-4 bg-white w-fit border-2 rounded-t-2xl ">Commercial</h2>
+									<ul className="grid grid-cols-2 gap-2 pl-6 py-6 bg-white ">{comlistItems}</ul>
+									<div className="bg-white pb-4">
+										<ComServicesSlider />
+									</div>{" "}
+									{/* Move it inside this section */}
 								</div>
-								{/* Move it inside this section */}
+								<div className="mt-0 py-6 bg-gray-100  " id="middleOfServices">
+									<h2 className="text-3xl font-bold underline mb-0 px-4 py-4 bg-white w-fit border-2 rounded-t-2xl">Residential</h2>
+									<ul className="grid grid-cols-2 gap-2 pl-6 py-6 bg-white ">{reslistItems}</ul>
+									<div className="bg-white pb-4">
+										<ResServicesSlider />
+									</div>
+									{/* Move it inside this section */}
+								</div>
 							</div>
 						</div>
 					</div>
+					<Contact />
 				</div>
-				<Contact />
 			</div>
 		</>
 	);

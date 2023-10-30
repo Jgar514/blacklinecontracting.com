@@ -23,11 +23,13 @@ const Nav = () => {
 					{/* <span className="text-3xl text-indigo-600 mr-1 pt-2">
 						<ion-icon name="logo-ionic"></ion-icon>
 					</span> */}
-					<div className=" flex flex-col bg-white py-0">
-						<h1 className=" underline underline-offset-4 text-2xl mb-0">Blackline Contracting </h1>
+					<a href="/home">
+						<div className=" flex flex-col bg-white py-0">
+							<h1 className=" underline underline-offset-4 text-2xl mb-0">Blackline Contracting </h1>
 
-						<p className="text-lg s">443-534-19xx</p>
-					</div>
+							<p className="text-lg s">443-534-19xx</p>
+						</div>
+					</a>
 					{/* <p>4435341999</p> */}
 				</div>
 

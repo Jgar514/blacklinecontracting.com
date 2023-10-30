@@ -15,16 +15,21 @@ const types = [
 		index: 1,
 		name: "Commercial",
 		img: building,
+		link: "/services",
+		scroll: "topOfServices",
 	},
 	{
 		index: 2,
 		name: "Residential",
 		img: fullhouse,
+		link: "/services",
+		scroll: "middleOfServices",
 	},
 	{
 		index: 3,
 		name: "Custom",
 		img: misc,
+		link: "/services",
 	},
 ];
 
