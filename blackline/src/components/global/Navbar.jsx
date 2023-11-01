@@ -16,7 +16,7 @@ const Nav = () => {
 	return (
 		<div className="shadow-md w-full fixed top-0 left-0   bg-white lg:  mb-0 z-40 pt-4 lg:pt-0   flex flex-col justify-between ">
 			<div className="flex flex-row pb-2 lg:pb-2 px-6  lg:px-8 justify-between items-center ">
-				<div className=" flex w-1/2 md:justify-center lg:pr-8">
+				<div className=" flex lg:w-1/2 md:justify-center lg:pr-8">
 					<a href="/home">
 						<div
 							className=" font-bold text-2xl  cursor-pointer flex  font-[Poppins] 
