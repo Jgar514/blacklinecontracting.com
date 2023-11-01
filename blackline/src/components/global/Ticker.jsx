@@ -15,7 +15,7 @@ function Ticker() {
 				</div>
 				<div className="px-6 animate-marquee2  whitespace-nowrap textdecoration-bold text-base text-black font-bold  ">
 					<span className=" mx-2">USA</span>
-					<span className=" mx-2">US</span>
+					<span className=" mx-2">USA</span>
 					<span className="mx-2">USA</span>
 					<span className="ml-6">All Veterans Get 20% Off</span>
 				</div>

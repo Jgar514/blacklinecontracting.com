@@ -28,19 +28,22 @@ function Services() {
 					<Header title="Services" />
 
 					<div className="pt-10 bg-gray-100 ">
-						<div className="mb-8">
+						<div className="mb-8 w-full">
 							<div className="bg-gray-100">
 								<h1 className="text-4xl md:text-4xl font-bold text-center underline mb-4">Our Services</h1>
 								<p className="text-lg text-gray-600 text-center mb-8">Explore our wide range of commercial and residential services.</p>
 							</div>
 
-							<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 bg-gray-100 ">
-								<div className="mt-0 py-6 ">
-									<h2 className="text-3xl font-bold underline mb-0 px-4 py-4 bg-white w-fit border-2 rounded-t-2xl ">Commercial</h2>
-									<ul className="grid grid-cols-2 gap-2 pl-6 py-6 bg-white ">{comlistItems}</ul>
-									<div className="bg-white pb-4">
-										<ComServicesSlider />
-									</div>{" "}
+							<div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 bg-gray-100 w-full lg:px-10">
+								<div className="mt-0 py-6 lg:p-10  ">
+									<h2 className="text-3xl font-bold underline mb-0 px-4 py-4 lg:p-10 bg-white w-fit border-2 rounded-t-2xl ">Commercial</h2>
+									<div className="lg:px-8  lg:p-10">
+										<ul className="grid grid-cols-2 lg:grid-cols-3 gap-2 pl-6 py-6 bg-white lg:p-10">{comlistItems}</ul>
+
+										<div className="bg-white pb-4">
+											<ComServicesSlider />
+										</div>
+									</div>
 									{/* Move it inside this section */}
 								</div>
 								<div className="mt-0 py-6 bg-gray-100  " id="middleOfServices">

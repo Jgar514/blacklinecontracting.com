@@ -9,7 +9,7 @@ const ProjectCard = ({ name, img, link }) => {
 		window.scrollTo(0, 0);
 	};
 	return (
-		<div className="w-full md:w-1/2 lg:w-1/3 p-4">
+		<div className="w-full  lg:w-1/3 p-4">
 			<div className="bg-white rounded-lg shadow-md overflow-hidden">
 				<Link to={link}>
 					<div className="w-full h-80 md:h-96 bg-cover bg-center relative" onClick={scrollToTop} style={{ backgroundImage: `url(${img})` }}>
@@ -23,10 +23,10 @@ const ProjectCard = ({ name, img, link }) => {
 
 const ServingCard = () => {
 	return (
-		<div id="works" className="h-full w-full py-8 bg-gray-100">
-			<div className="container mx-auto">
-				<h2 className="text-4xl font-bold text-center mb-4">Services</h2>
-				<div className="flex flex-wrap">
+		<div id="works" className="h-full w-full py-8 lg:py-4 bg-gray-200">
+			<div className="container mx-auto gap-10  ">
+				<h2 className="text-4xl font-bold text-center mb-4 lg:text-6xl">Services</h2>
+				<div className="flex flex-wrap justify-between ">
 					{types.map((project, index) => (
 						<ProjectCard key={`project-${index}`} {...project} />
 					))}

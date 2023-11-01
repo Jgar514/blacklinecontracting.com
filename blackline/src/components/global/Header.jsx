@@ -3,7 +3,7 @@ import hero from "../../assets/headerimages/hero.jpg";
 
 function Header({ title }) {
 	return (
-		<div className="border-b-4 border-black bg-cover bg-center flex items-center justify-center h-46 md:h-128 w-full mt-0" style={{ backgroundImage: `url(${hero})` }}>
+		<div className="border-b-4 border-black bg-cover bg-center flex items-center justify-center h-46  w-full mt-0" style={{ backgroundImage: `url(${hero})` }}>
 			<div className="bg-white/40 w-full h-full md:w-10/12 lg:w-10/12 px-4 py-16 text-center flex flex-col  justify-center items-center gap-y-2 mt-8 pr-16">
 				<nav className="flex" aria-label="Breadcrumb">
 					<ol className="inline-flex items-center space-x-1 md:space-x-3">
@@ -22,7 +22,7 @@ function Header({ title }) {
 									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
 								</svg>
 								<span className="ml-1 text-sm font-medium text-gray-500 md:ml-2 dark:text-gray-400">
-									<h1 className="   text-black underline  md:text-4xl lg:text-7xl font-bold text-3xl">{title}</h1>
+									<h1 className="   text-black underline  md:text-4xl font-bold text-3xl">{title}</h1>
 								</span>
 							</div>
 						</li>

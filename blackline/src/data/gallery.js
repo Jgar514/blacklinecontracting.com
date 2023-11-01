@@ -2,18 +2,6 @@ import { hero, building, misc, maryland, virginia, blankdc, scif, cabinets, dump
 
 export default [
 	{
-		index: 1,
-		imgUrl: glassroom,
-	},
-	{
-		index: 2,
-		imgUrl: fullhouse,
-	},
-	{
-		index: 3,
-		imgUrl: building,
-	},
-	{
 		index: 4,
 		imgUrl: misc,
 	},

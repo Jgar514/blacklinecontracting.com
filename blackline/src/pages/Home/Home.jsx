@@ -14,23 +14,22 @@ import Contact from "../../components/forms/Contact";
 import Areas from "./Areas";
 function Home() {
 	return (
-		<>
+		<div className=" flex flex-col  w-full">
 			<Hero />
 
 			<BelowHero />
 			<Works />
 
-			<div className="container bg-white py-6 mx-auto mt-0 mb-0 md:mt-14 lg:mt-14  ">
-				<div className="flex flex-col items-center justify-center gap-2">
-					<FillerHeading className="mb-4 text-center" heading="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
+			<div className="flex flex-col items-center justify-center gap-2 w-full ">
+				
+				<FillerHeading className="mb-4 text-center" heading="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
 
-					<Slider />
-					<Button to="/gallery">Project Gallery</Button>
-					<Areas />
-				</div>
-				<Contact />
+				<Slider className="" />
+				<Button to="/gallery">Project Gallery</Button>
+				<Areas />
 			</div>
-		</>
+			<Contact />
+		</div>
 	);
 }
 

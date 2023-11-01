@@ -61,25 +61,27 @@ const Contact = () => {
 	};
 
 	return (
-		<div className="bg-gray-100 w-full flex flex-col gap-8">
+		<div className="bg-gray-100 w-full flex flex-col gap-8 justify-center px-4 ">
 			<div className="flex justify-center py-">
-				<h1 className="text-2xl ">- Send Us A Message -</h1>
+				<h1 className="text-3xl ">- Send Us A Message -</h1>
 			</div>
-			<div className="border-4 px-4 py-8 rounded-xl bg-white border-black flex flex-col shadow-lg mb-8 mx-2 ">
-				<h1 className="text-2xl font-bold -my-2 mb-2">Let's Work Together!</h1>
-				<form ref={formRef} onSubmit={handleSubmit} className="mt-4 flex flex-col gap-4 px-2">
-					<label className="flex flex-col">
-						<span className="text-xl text-black mb-2 font-semibold">Your email:</span>
-						<input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Email" className="py-2 px-4 bg-white text-black rounded-lg border-2 border-black font-medium" />
-					</label>
-					<label className="flex flex-col">
-						<span className="text-xl text-black mb-2 font-semibold">Your Message:</span>
-						<textarea rows={7} name="message" value={form.message} onChange={handleChange} placeholder="Feel free to reach out!" className="py-2 px-4 bg-white text-black rounded border-2 border-black font-medium" />
-					</label>
-					<button type="submit" className="py-3 px-8 rounded-xl border-2 border-black w-50 text-black font-bold bg-yellow-400 hover:bg-yellow-500 shadow-md" disabled={loading}>
-						{loading ? "Sending..." : "Send"}
-					</button>
-				</form>
+			<div className="flex justify-center py-">
+				<div className="border-4 px-4 py-8 rounded-xl bg-white border-black flex flex-col shadow-lg mb-8 mx-2 md:w-2/3 w-full ">
+					<h1 className="text-2xl font-bold -my-2 mb-2">Let's Work Together!</h1>
+					<form ref={formRef} onSubmit={handleSubmit} className="mt-4 flex flex-col gap-4 px-2">
+						<label className="flex flex-col">
+							<span className="text-xl text-black mb-2 font-semibold">Your email:</span>
+							<input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Email" className="py-2 px-4 bg-white text-black rounded-lg border-2 border-black font-medium" />
+						</label>
+						<label className="flex flex-col">
+							<span className="text-xl text-black mb-2 font-semibold">Your Message:</span>
+							<textarea rows={7} name="message" value={form.message} onChange={handleChange} placeholder="Feel free to reach out!" className="py-2 px-4 bg-white text-black rounded border-2 border-black font-medium" />
+						</label>
+						<button type="submit" className="py-3 px-8 rounded-xl border-2 border-black w-50 text-black font-bold bg-yellow-400 hover:bg-yellow-500 shadow-md" disabled={loading}>
+							{loading ? "Sending..." : "Send"}
+						</button>
+					</form>
+				</div>
 			</div>
 		</div>
 	);
