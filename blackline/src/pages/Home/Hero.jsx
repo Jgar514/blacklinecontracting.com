@@ -6,7 +6,7 @@ import Button from "../../components/global/Button";
 
 function Hero() {
 	return (
-		<div className="mt-8 lg:mt-14 bg-gray-100 flex items-center justify-center">
+		<div className="mt-10 lg:mt-12 bg-gray-100 flex items-center justify-center">
 			<div className="bg-cover bg-top h-96 md:h-128 w-full flex " style={{ backgroundImage: `url(${hero})` }}>
 				<div className="container mx-auto">
 					<div className="flex h-full items-center justify-center">

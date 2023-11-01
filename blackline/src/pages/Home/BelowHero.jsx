@@ -7,8 +7,8 @@ import Button from "../../components/global/Button";
 function BelowHero() {
 	return (
 		<>
-			<div className="bg-gray-100 p-4 flex justify-center items-center lg:hidden ">
-				<div className="mt-0  lg:mt-14 bg-white py-8 px-2 rounded-xl flex justify-center flex-col w-full md:w-5/6 gap-2 items-center border-black border-2">
+			<div className="bg-gray-100 md:p-4 flex justify-center items-center lg:hidden ">
+				<div className="mt-0  lg:mt-14 bg-white py-8 px-2 md:rounded-xl  flex justify-center flex-col w-full md:w-5/6 gap-2 items-center border-black md:border-2 border-b-2 border-t-2">
 					<div className="container flex justify-center md:w-full">
 						<FillerHeading heading="Licensed. Insured. Trusted" p="Doing work for families, companies, and our government." />
 					</div>
