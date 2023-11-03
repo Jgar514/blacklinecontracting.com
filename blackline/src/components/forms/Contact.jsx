@@ -65,13 +65,13 @@ const Contact = () => {
 			<div className="flex justify-center py-">
 				<h1 className="text-3xl ">- Send Us A Message -</h1>
 			</div>
-			<div className="flex justify-center py-">
-				<div className="border-4 px-4 py-8 rounded-xl bg-white border-black flex flex-col shadow-lg mb-8 mx-2 md:w-2/3 w-full ">
+			<div className="flex justify-center p-8">
+				<div className="border-4 px-4 py-8 rounded-xl bg-white border-black flex flex-col shadow-lg mb-8 mx-2 md:w-2/3 w-full lg:w-1/2 lg:h-auto ">
 					<h1 className="text-2xl font-bold -my-2 mb-2">Let's Work Together!</h1>
 					<form ref={formRef} onSubmit={handleSubmit} className="mt-4 flex flex-col gap-4 px-2">
 						<label className="flex flex-col">
 							<span className="text-xl text-black mb-2 font-semibold">Your email:</span>
-							<input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Email" className="py-2 px-4 bg-white text-black rounded-lg border-2 border-black font-medium" />
+							<input type="email" name="email" value={form.email} onChange={handleChange} placeholder="Email" className="py-2 px-4 bg-white text-black rounded-lg border-2 border-black font-medium lg:w-1/2" />
 						</label>
 						<label className="flex flex-col">
 							<span className="text-xl text-black mb-2 font-semibold">Your Message:</span>
