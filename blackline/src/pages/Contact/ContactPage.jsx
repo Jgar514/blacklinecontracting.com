@@ -10,7 +10,7 @@ function ContactPage() {
 				<h1 className="text-2xl">- Call Us Today -</h1>
 				<h1 className="font-bold text-4xl underline">443-534-19xx</h1>
 			</div>
-			<div className="p-4">
+			<div className="md:p-4">
 				<Contact />
 			</div>
 		</div>
