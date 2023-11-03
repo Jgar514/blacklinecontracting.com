@@ -24,7 +24,7 @@ function Services() {
 	return (
 		<>
 			<div id="topOfServices">
-				<div className="bg-gray-100">
+				<div className="bg-gray-100 lg:pt-8">
 					<Header title="Services" />
 
 					<div className="pt-10 bg-gray-100 ">

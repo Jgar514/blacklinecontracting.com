@@ -4,7 +4,7 @@ export default [
 	{
 		index: 3,
 		state: "Washington D.C.",
-		counties: [""],
+		counties: ["Everywhere"],
 		imgUrl: blankdc,
 	},
 	{

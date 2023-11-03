@@ -20,7 +20,7 @@ function Home() {
 			<BelowHero />
 			<Works />
 
-			<div className="flex flex-col items-center justify-center gap-2 w-full lg:py-10">
+			<div className="flex flex-col items-center justify-center gap-2 w-full lg:py-10 bg-gray-100">
 				<FillerHeading className="mb-4 text-center" heading="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
 
 				<Slider className="" />
