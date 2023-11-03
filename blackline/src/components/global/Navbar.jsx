@@ -36,15 +36,17 @@ const Nav = () => {
 
 					<ul className={`lg:flex lg:items-center bg-white z-50  lg:pb-0 pb-12 absolute lg:static  border-4 border-black lg:border-0 lg:z-auto  left-0 pr-4 w-full  lg:w-auto lg:gap-6 lg:pl-0 pl-9  transition-all duration-300 ease-in ${open ? "top-20  " : "top-[-540px] "}`}>
 						{Links.map((link) => (
-							<li key={link.name} className="lg:ml-8 text-xl lg:my-0 my-7">
+							<li key={link.name} className="lg:mr-8 text-xl lg:my-0 my-7">
 								<a href={link.link} className="text-gray-800 hover:text-gray-400 duration-500">
 									{link.name}
 								</a>
 							</li>
 						))}
-						<div className="px-4 lg:px-0 ">
+						<div className="px-0 lg:px-0 lg:w-52  ">
 							<Button>
-								<a href="./contact">Get Started</a>
+								<a className="lg:w-80" href="./contact">
+									Get Started
+								</a>
 							</Button>
 						</div>
 					</ul>
