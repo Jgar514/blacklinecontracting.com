@@ -19,7 +19,7 @@ function Slider() {
 
 	return (
 		<>
-			<div ref={sliderRef} className="keen-slider w-full h-fit flex flex-row overflow-hidden items-center py-8 mb-0 lg:h-96  ">
+			<div ref={sliderRef} className="keen-slider w-full h-fit flex flex-row overflow-hidden items-center py-6 mb-0 lg:h-96  gap-2">
 				<div className="keen-slider__slide ">
 					<img className="h-auto lg:h-86 object-cover w-full" src={cabinets} />
 				</div>
