@@ -20,7 +20,7 @@ function BelowHero() {
 							<FaFlagUsa className="h-30 w-60 flex" style={{ width: "inherit", height: "inherit" }} />
 						</div>
 
-						<Button to="/contact">See Customers</Button>
+						<Button to="/gallery">Past Work</Button>
 					</div>
 				</div>
 			</div>
