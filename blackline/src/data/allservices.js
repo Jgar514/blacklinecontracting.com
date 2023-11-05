@@ -140,7 +140,7 @@ const resarray = [
 	},
 	{
 		index: 7,
-		title: "Flooring",
+		title: "Commercial Flooring",
 	},
 	{
 		index: 8,

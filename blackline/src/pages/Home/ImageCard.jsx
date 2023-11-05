@@ -1,5 +1,5 @@
 import React from "react";
-import { types } from "../../data/overview";
+import { types } from "../../data";
 import Button from "../../components/global/Button";
 import { Link } from "react-router-dom";
 // Import your Button component
@@ -21,7 +21,7 @@ const ProjectCard = ({ name, img, link }) => {
 	);
 };
 
-const ServingCard = () => {
+const ServiceCategory = () => {
 	return (
 		<div id="works" className="h-full w-full py-8 lg:py-10 bg-gray-200">
 			<div className="container mx-auto gap-10  ">
@@ -39,4 +39,4 @@ const ServingCard = () => {
 	);
 };
 
-export default ServingCard;
+export default ServiceCategory;

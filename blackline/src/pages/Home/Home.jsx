@@ -1,6 +1,6 @@
 import React from "react";
 
-import Works from "./ImageCard";
+import ServiceCategory from "./ImageCard";
 import Button from "../../components/global/Button";
 
 import Ticker from "../../components/global/Ticker";
@@ -14,21 +14,17 @@ import Contact from "../../components/forms/Contact";
 import Areas from "./Areas";
 function Home() {
 	return (
-		<div className=" flex flex-col  w-full">
+		<>
 			<Hero />
 
 			<BelowHero />
-			<Works />
+			<ServiceCategory />
 
-			<div className="flex flex-col items-center justify-center gap-2 w-full lg:py-10 bg-gray-100">
-				<FillerHeading className="mb-4 text-center" heading="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
+			<Slider className="" />
+			
 
-				<Slider className="" />
-				<Button to="/gallery">Project Gallery</Button>
-				<Areas />
-			</div>
 			<Contact />
-		</div>
+		</>
 	);
 }
 

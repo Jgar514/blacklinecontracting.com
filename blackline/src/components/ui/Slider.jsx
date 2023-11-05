@@ -1,6 +1,8 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
 import { scif, cabinets, dumptruck, fans, fdicstudio, glassroom, podcaststudio } from "../../assets";
+import FillerHeading from "./FillerHeading";
+import Button from "../global/Button";
 
 function Slider() {
 	const [sliderRef] = useKeenSlider({
@@ -19,28 +21,32 @@ function Slider() {
 
 	return (
 		<>
-			<div ref={sliderRef} className="keen-slider w-full h-fit flex flex-row overflow-hidden items-center py-6 mb-0 lg:h-96  gap-2">
-				<div className="keen-slider__slide ">
-					<img className="h-auto lg:h-86 object-cover w-full" src={cabinets} />
+			<div className="flex flex-col items-center">
+				<FillerHeading className="mb-4 text-center" heading="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
+				<div ref={sliderRef} className="keen-slider w-full h-fit flex flex-row overflow-hidden items-center py-6 mb-0 lg:h-96  gap-2">
+					<div className="keen-slider__slide ">
+						<img className="h-auto lg:h-86 object-cover w-full" src={cabinets} />
+					</div>
+					<div className="keen-slider__slide  ">
+						<img className="h-auto object-cover w-full" src={scif} />
+					</div>
+					<div className="keen-slider__slide">
+						<img className="h-auto object-cover w-full" src={dumptruck} />
+					</div>
+					<div className="keen-slider__slide ">
+						<img className="h-auto object-cover w-full" src={fans} />
+					</div>
+					<div className="keen-slider__slide">
+						<img className="h-auto object-cover w-full" src={fdicstudio} />
+					</div>
+					<div className="keen-slider__slide">
+						<img className="h-auto object-cover w-full" src={glassroom} />
+					</div>
+					<div className="keen-slider__slide">
+						<img className="h-auto object-cover w-full" src={podcaststudio} />
+					</div>
 				</div>
-				<div className="keen-slider__slide  ">
-					<img className="h-auto object-cover w-full" src={scif} />
-				</div>
-				<div className="keen-slider__slide">
-					<img className="h-auto object-cover w-full" src={dumptruck} />
-				</div>
-				<div className="keen-slider__slide ">
-					<img className="h-auto object-cover w-full" src={fans} />
-				</div>
-				<div className="keen-slider__slide">
-					<img className="h-auto object-cover w-full" src={fdicstudio} />
-				</div>
-				<div className="keen-slider__slide">
-					<img className="h-auto object-cover w-full" src={glassroom} />
-				</div>
-				<div className="keen-slider__slide">
-					<img className="h-auto object-cover w-full" src={podcaststudio} />
-				</div>
+				<Button to="/gallery">Project Gallery</Button>
 			</div>
 		</>
 	);
