@@ -1,12 +1,12 @@
 import React from "react";
 import { commercialservices, residentialservices, comarray, resarray } from "../../data/allservices";
-import ComServicesSlider from "./ComServicesSlider";
-import ResServicesSlider from "./ResServicesSlider";
+import ComServicesSlider from "./components/ComServicesSlider";
+import ResServicesSlider from "./components/ResServicesSlider";
 import FillerHeading from "../../components/ui/FillerHeading";
 // import Lists from "../../components/ui/Lists";
 import Contact from "../../components/forms/Contact";
 import Header from "../../components/global/Header";
-import ServiceItem from "./ServiceItem";
+import ServiceItem from "./components/ServiceItem";
 
 function Services() {
 	const comlistItems = comarray.map((service, index) => (

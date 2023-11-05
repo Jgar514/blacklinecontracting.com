@@ -1,8 +1,8 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import { scif, cabinets, dumptruck, fans, fdicstudio, glassroom, podcaststudio } from "../../assets";
-import FillerHeading from "./FillerHeading";
-import Button from "../global/Button";
+import { scif, cabinets, dumptruck, fans, fdicstudio, glassroom, podcaststudio } from "../../../assets";
+import FillerHeading from "../../../components/ui/FillerHeading";
+import Button from "../../../components/global/Button";
 
 function Slider() {
 	const [sliderRef] = useKeenSlider({
@@ -51,6 +51,6 @@ function Slider() {
 		</>
 	);
 }
-import { hero } from "../../assets";
+import { hero } from "../../../assets";
 
 export default Slider;

@@ -1,8 +1,8 @@
 import React from "react";
 import { FaFlagUsa } from "react-icons/fa";
 import { BsBuildings, BsHouseDoor } from "react-icons/bs";
-import FillerHeading from "../../components/ui/FillerHeading";
-import Button from "../../components/global/Button";
+import FillerHeading from "../../../components/ui/FillerHeading";
+import Button from "../../../components/global/Button";
 
 function BelowHero() {
 	return (

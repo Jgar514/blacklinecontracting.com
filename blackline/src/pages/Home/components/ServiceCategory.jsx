@@ -1,6 +1,6 @@
 import React from "react";
-import { types } from "../../data";
-import Button from "../../components/global/Button";
+import { types } from "../../../data";
+import Button from "../../../components/global/Button";
 import { Link } from "react-router-dom";
 // Import your Button component
 

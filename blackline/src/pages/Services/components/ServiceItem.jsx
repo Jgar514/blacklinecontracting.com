@@ -1,6 +1,6 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import { commercialservices } from "../../data/allservices";
+import { commercialservices } from "../../../data/allservices";
 import SliderItem from "./SliderItem";
 
 function ServiceItem({ title, services, listItems, type }) {

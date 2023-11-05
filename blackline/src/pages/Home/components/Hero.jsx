@@ -1,7 +1,7 @@
 import React from "react";
-import { hero } from "../../assets";
-import Button from "../../components/global/Button";
-import { business } from "../../data";
+import { hero } from "../../../assets";
+import Button from "../../../components/global/Button";
+import { business } from "../../../data";
 
 // blacklinecontracting.com / blackline / src / assets / headerimages / hero.jpg;
 

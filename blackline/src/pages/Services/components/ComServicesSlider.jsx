@@ -1,9 +1,9 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import { residentialservices } from "../../data/allservices";
+import { commercialservices } from "../../../data/allservices";
 import SliderItem from "./SliderItem";
 
-function ResServicesSlider() {
+function ComServicesSlider() {
 	const [sliderRef] = useKeenSlider({
 		loop: false,
 		mode: "free-snap",
@@ -19,7 +19,7 @@ function ResServicesSlider() {
 	});
 	return (
 		<div ref={sliderRef} className="keen-slider w-full h-fit flex flex-row overflow-hidden items-center py-2 md:h-80 mb-0  lg:h-80 gap-2">
-			{residentialservices.map((service) => (
+			{commercialservices.map((service) => (
 				<div className="keen-slider__slide ">
 					<SliderItem imgUrl={service.imgUrl} />
 				</div>
@@ -28,4 +28,4 @@ function ResServicesSlider() {
 	);
 }
 
-export default ResServicesSlider;
+export default ComServicesSlider;

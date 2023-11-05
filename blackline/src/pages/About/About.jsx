@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/global/Header";
 import Contact from "../../components/forms/Contact";
+import { business } from "../../data";
 
 function About() {
 	return (
@@ -8,8 +9,8 @@ function About() {
 			<Header title="About" />
 			<section className="bg-gray-100 py-12">
 				<div className="container mx-auto px-4">
-					<h2 className="text-3xl font-bold mb-6">About Blackline Contracting</h2>
-					<p className="text-gray-700 mb-6">At Blackline Contracting, we are committed to shaping your vision into reality. With over 29 years of experience in the construction industry, we have proudly served The DMV with exceptional general contracting services. Our unwavering dedication to quality, integrity, and innovation has made us a trusted partner for both residential and commercial construction projects.</p>
+					<h2 className="text-3xl font-bold mb-6">About {business.name}</h2>
+					<p className="text-gray-700 mb-6">At {business.name}, we are committed to shaping your vision into reality. With over 29 years of experience in the construction industry, we have proudly served The DMV with exceptional general contracting services. Our unwavering dedication to quality, integrity, and innovation has made us a trusted partner for both residential and commercial construction projects.</p>
 
 					<div className="bg-white p-6 rounded-lg shadow-md mb-6">
 						<h3 className="text-2xl font-bold mb-4">Our Core Values</h3>
@@ -30,7 +31,7 @@ function About() {
 					</div>
 
 					<h3 className="text-2xl font-bold mb-4">Our Services</h3>
-					<p className="text-gray-700 mb-6">From concept to completion, Blackline Contracting offers a comprehensive range of construction services, including:</p>
+					<p className="text-gray-700 mb-6">From concept to completion, {business.name} offers a comprehensive range of construction services, including:</p>
 
 					<ul className="list-disc pl-6 text-gray-700">
 						<li>
@@ -51,7 +52,7 @@ function About() {
 					</ul>
 
 					<div className="bg-white p-6 rounded-lg shadow-md mb-6">
-						<h3 className="text-2xl font-bold mb-4">Why Choose Blackline Contracting?</h3>
+						<h3 className="text-2xl font-bold mb-4">Why Choose {business.name}?</h3>
 						<ul className="list-disc pl-6 text-gray-700">
 							<li>
 								<strong>Proven Track Record:</strong> Our portfolio showcases a diverse range of successfully completed projects, demonstrating our expertise and commitment to excellence.
@@ -71,7 +72,7 @@ function About() {
 					<p className="text-gray-700">
 						<strong>Get Started</strong>
 						<br />
-						Ready to embark on your next construction project? Contact Blackline Contracting today to discuss your ideas and receive a free consultation. We look forward to making your vision a reality with the same dedication and craftsmanship that define our company.
+						Ready to embark on your next construction project? Contact {business.name} today to discuss your ideas and receive a free consultation. We look forward to making your vision a reality with the same dedication and craftsmanship that define our company.
 					</p>
 				</div>
 			</section>

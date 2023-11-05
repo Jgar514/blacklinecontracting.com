@@ -1,8 +1,8 @@
 import React from "react";
-import areas from "../../data/areas";
+import areas from "../../../data/areas";
 import AreaItem from "./AreaItem";
-import FillerHeading from "../../components/ui/FillerHeading";
-import "./areas.css";
+import FillerHeading from "../../../components/ui/FillerHeading";
+
 function Areas() {
 	return (
 		<div className="mt-4 py-8 bg-gray-100 w-full flex flex-col items-center">
