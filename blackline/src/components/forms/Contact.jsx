@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 // import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import MiddleLine from "../ui/MiddleLine";
 
 const Contact = () => {
 	const formRef = useRef();
@@ -61,9 +62,9 @@ const Contact = () => {
 	};
 
 	return (
-		<div className="bg-gray-100 w-full flex flex-col gap-8 justify-center py-8 md:px-4 ">
-			<div className="flex justify-center py-">
-				<h1 className="text-3xl ">- Send Us A Message -</h1>
+		<div className="bg-gray-100 w-full flex flex-col gap-8 justify-center py-4 md:px-4 ">
+			<div className="lg:px-20">
+				<MiddleLine title="Message Us" />
 			</div>
 			<div className="flex justify-center p-2 md:p-8">
 				<div className="border-4 px-4 py-8 rounded-xl bg-white border-black flex flex-col shadow-lg mb-8 mx-2 md:w-2/3 w-full lg:w-1/2 lg:h-auto ">

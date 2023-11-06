@@ -2,6 +2,7 @@ import React from "react";
 import { types } from "../../../data";
 import Button from "../../../components/global/Button";
 import { Link } from "react-router-dom";
+import MiddleLine from "../../../components/ui/MiddleLine";
 // Import your Button component
 
 const ProjectCard = ({ name, img, link }) => {
@@ -25,7 +26,7 @@ const ServiceCategory = () => {
 	return (
 		<div id="works" className="h-full w-full py-8 lg:py-10 bg-gray-200">
 			<div className="container mx-auto gap-10  ">
-				<h2 className="text-4xl font-bold text-center mb-4 lg:text-6xl"> Services</h2>
+				<MiddleLine title="Services" />
 				<div className="flex flex-wrap justify-between ">
 					{types.map((project, index) => (
 						<ProjectCard key={`project-${index}`} {...project} />

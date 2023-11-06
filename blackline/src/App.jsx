@@ -14,7 +14,7 @@ function App() {
 			<div className="bg-white flex flex-col">
 				<Navbar />
 
-				<div className="w-full h-full bg-white mt-8 pt-10 ">
+				<div className="w-full h-full bg-gray-100 mt-8 pt-10 ">
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/home" element={<Home />} />

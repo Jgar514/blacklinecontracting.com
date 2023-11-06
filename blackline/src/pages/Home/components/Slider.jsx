@@ -21,8 +21,9 @@ function Slider() {
 
 	return (
 		<>
-			<div className="flex flex-col items-center">
-				<FillerHeading className="mb-4 text-center" heading="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
+			<div className="flex flex-col items-center md:gap-y-8 md:pt-8">
+				<MiddleLine title="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
+
 				<div ref={sliderRef} className="keen-slider w-full h-fit flex flex-row overflow-hidden items-center py-6 mb-0 lg:h-96  gap-2">
 					<div className="keen-slider__slide ">
 						<img className="h-auto lg:h-86 object-cover w-full" src={cabinets} />
@@ -52,5 +53,6 @@ function Slider() {
 	);
 }
 import { hero } from "../../../assets";
+import MiddleLine from "../../../components/ui/MiddleLine";
 
 export default Slider;
