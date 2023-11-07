@@ -13,6 +13,7 @@ function Home() {
 			<BelowHero />
 			<ServiceCategory />
 			<Slider />
+			<Areas />
 			<Contact />
 		</>
 	);

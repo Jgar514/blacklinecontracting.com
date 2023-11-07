@@ -21,7 +21,7 @@ function Slider() {
 
 	return (
 		<>
-			<div className="flex flex-col items-center md:gap-y-8 md:pt-8">
+			<div className="flex flex-col items-center md:gap-y-8 md:pt-8 pb-6 bg-white dark:bg-[#1B1D22]">
 				<MiddleLine title="More Projects" p="We take pride in our projects. Feel free to reach out with any questions." />
 
 				<div ref={sliderRef} className="keen-slider w-full h-fit flex flex-row overflow-hidden items-center py-6 mb-0 lg:h-96  gap-2">

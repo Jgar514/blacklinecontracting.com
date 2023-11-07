@@ -24,7 +24,7 @@ const ProjectCard = ({ name, img, link }) => {
 
 const ServiceCategory = () => {
 	return (
-		<div id="works" className="h-full w-full py-8 lg:py-10 bg-gray-200">
+		<div id="works" className="h-full w-full py-8 lg:py-10 bg-gray-200 dark:bg-[#22262F]">
 			<div className="container mx-auto gap-10  ">
 				<MiddleLine title="Services" />
 				<div className="flex flex-wrap justify-between ">
