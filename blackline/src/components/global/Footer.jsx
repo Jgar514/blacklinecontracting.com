@@ -6,6 +6,8 @@ import Button from "../global/Button";
 import { Link } from "react-router-dom";
 import FooterItem from "./FooterItem";
 
+//information comes from data>data.js business
+
 function Footer() {
 	return (
 		<div className="bg-black h-auto py-4 w-full flex flex-col gap-y-4 items-center -mt-4">

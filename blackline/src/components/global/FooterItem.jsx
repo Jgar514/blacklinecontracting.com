@@ -1,5 +1,7 @@
 import React from "react";
 
+//information comes from data>data.js business
+
 function FooterItem({ name, about, hours, badge, address, icons, phone }) {
 	return (
 		<div className="flex flex-col text-white gap-4 px-4 pb-6 mb-6">
@@ -10,7 +12,6 @@ function FooterItem({ name, about, hours, badge, address, icons, phone }) {
 					<p>{about}</p>
 				</div>
 			</div>
-
 			<p>
 				{hours.map((item) => (
 					<span className="flex flex-col">{item}</span>

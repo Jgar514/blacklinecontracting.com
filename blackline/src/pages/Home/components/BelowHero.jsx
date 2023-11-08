@@ -15,6 +15,8 @@ function BelowHero() {
 
 					<div className="flex flex-col items-center py-0 w-full ">
 						<div className="h-14 font-xl flex flex-row justify-between px-4 w-full mb-10 dark:text-white">
+
+							{/* Our 3 Icons */}
 							<BsHouseDoor className="h-30 w-60 flex" style={{ width: "inherit", height: "inherit" }} />
 							<BsBuildings className="h-30 w-60 flex" style={{ width: "inherit", height: "inherit" }} />
 							<FaFlagUsa className="h-30 w-60 flex" style={{ width: "inherit", height: "inherit" }} />

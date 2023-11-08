@@ -3,7 +3,8 @@ import { types } from "../../../data";
 import Button from "../../../components/global/Button";
 import { Link } from "react-router-dom";
 import MiddleLine from "../../../components/ui/MiddleLine";
-// Import your Button component
+
+//Commercial, resedential, custom cards
 
 const ProjectCard = ({ name, img, link }) => {
 	const scrollToTop = () => {
@@ -24,14 +25,22 @@ const ProjectCard = ({ name, img, link }) => {
 
 const ServiceCategory = () => {
 	return (
+		// Our Homepage Service Options
+
 		<div id="works" className="h-full w-full py-8 lg:py-10 bg-gray-200 dark:bg-[#22262F]">
 			<div className="container mx-auto gap-10  ">
 				<MiddleLine title="Services" />
+
+				{/* mapping through our work types from Data>data.js types */}
+
 				<div className="flex flex-wrap justify-between ">
 					{types.map((project, index) => (
 						<ProjectCard key={`project-${index}`} {...project} />
 					))}
 				</div>
+
+				{/* Our button */}
+
 				<div className="text-center mt-6">
 					<Button to="/services">All Services</Button>
 				</div>

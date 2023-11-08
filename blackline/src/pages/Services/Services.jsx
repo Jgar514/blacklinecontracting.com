@@ -36,7 +36,7 @@ function Services() {
 						<div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 bg-gray-100 dark:bg-[#1B1D22] w-full lg:px-10">
 							<div className="mt-0 py-0 lg:p-0  ">
 								<h2 className="text-3xl font-bold underline mb-0 px-4 py-4 lg:py-6 bg-white w-fit border-2 rounded-t-2xl dark:bg-[#22262F] dark:text-white ">Commercial</h2>
-								<div className="lg:  lg:p- dark:border-white dark:border-2">
+								<div className="lg:  lg:p- border-2 border-black dark:border-white dark:border-2">
 									<ul className="grid grid-cols-2 lg:grid-cols-3 gap-2 pl-6 py-6 bg-white dark:bg-[#22262F] lg:p-10 dark:text-white">{comlistItems}</ul>
 
 									<div className="bg-white pb-4 dark:bg-[#22262F]">
@@ -47,7 +47,7 @@ function Services() {
 							</div>
 							<div className="mt-0 py-6 dark:bg-[#1B1D22] bg-gray-100  " id="middleOfServices">
 								<h2 className="text-3xl font-bold underline mb-0 px-4 py-4 bg-white w-fit border-2 dark:text-white dark:bg-[#22262F] rounded-t-2xl">Residential</h2>
-								<div className="dark:border-white dark:border-2">
+								<div>
 									<ul className="grid grid-cols-2 gap-2 pl-6 py-6 bg-white dark:bg-[#22262F] dark:text-white ">{reslistItems}</ul>
 									<div className="bg-white pb-4 dark:bg-[#22262F]">
 										<ResServicesSlider />

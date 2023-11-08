@@ -6,8 +6,9 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				"maryland-red": "#FF6F61",
-				"maryland-gold": "#FFD600",
+				gray: "gray-100",
+				dark: "#1B1D22",
+				lighterdark: "#22262F",
 			},
 			animation: {
 				marquee: "marquee 20s linear infinite",
