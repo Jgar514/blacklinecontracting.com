@@ -7,14 +7,14 @@ function About() {
 	return (
 		<>
 			<Header title="About" />
-			<section className="bg-gray-100 py-12">
-				<div className="container mx-auto px-4">
+			<section className="bg-gray-100 dark:bg-[#1B1D22] py-12">
+				<div className="container mx-auto px-4 dark:text-white ">
 					<h2 className="text-3xl font-bold mb-6">About {business.name}</h2>
-					<p className="text-gray-700 mb-6">At {business.name}, we are committed to shaping your vision into reality. With over 29 years of experience in the construction industry, we have proudly served The DMV with exceptional general contracting services. Our unwavering dedication to quality, integrity, and innovation has made us a trusted partner for both residential and commercial construction projects.</p>
+					<p className="text-gray-700 dark:text-white mb-6">At {business.name}, we are committed to shaping your vision into reality. With over 29 years of experience in the construction industry, we have proudly served The DMV with exceptional general contracting services. Our unwavering dedication to quality, integrity, and innovation has made us a trusted partner for both residential and commercial construction projects.</p>
 
-					<div className="bg-white p-6 rounded-lg shadow-md mb-6">
+					<div className="bg-white dark:bg-[#22262F] p-6 rounded-lg shadow-md mb-6 dark:text-white">
 						<h3 className="text-2xl font-bold mb-4">Our Core Values</h3>
-						<ul className="list-disc pl-6 text-gray-700">
+						<ul className="list-disc pl-6 text-gray-700 dark:text-white">
 							<li>
 								<strong>Quality Craftsmanship:</strong> At the heart of every project is a commitment to craftsmanship. Our team of skilled professionals takes pride in delivering the highest quality work, ensuring your construction project stands the test of time.
 							</li>
@@ -31,9 +31,9 @@ function About() {
 					</div>
 
 					<h3 className="text-2xl font-bold mb-4">Our Services</h3>
-					<p className="text-gray-700 mb-6">From concept to completion, {business.name} offers a comprehensive range of construction services, including:</p>
+					<p className="text-gray-700 dark:text-white  mb-6">From concept to completion, {business.name} offers a comprehensive range of construction services, including:</p>
 
-					<ul className="list-disc pl-6 text-gray-700">
+					<ul className="list-disc pl-6 pb-4 mb-4text-gray-700 dark:text-white">
 						<li>
 							<strong>New Construction:</strong> We specialize in ground-up construction for residential and commercial properties, offering tailored solutions that match your unique needs.
 						</li>
@@ -51,9 +51,9 @@ function About() {
 						</li>
 					</ul>
 
-					<div className="bg-white p-6 rounded-lg shadow-md mb-6">
+					<div className="bg-white  dark:bg-[#22262F] p-4 rounded-lg shadow-md mb-6">
 						<h3 className="text-2xl font-bold mb-4">Why Choose {business.name}?</h3>
-						<ul className="list-disc pl-6 text-gray-700">
+						<ul className="list-disc pl-6 text-gray-700 dark:text-white">
 							<li>
 								<strong>Proven Track Record:</strong> Our portfolio showcases a diverse range of successfully completed projects, demonstrating our expertise and commitment to excellence.
 							</li>
@@ -69,14 +69,14 @@ function About() {
 						</ul>
 					</div>
 
-					<p className="text-gray-700">
+					<p className="text-gray-700 dark:text-white">
 						<strong>Get Started</strong>
 						<br />
 						Ready to embark on your next construction project? Contact {business.name} today to discuss your ideas and receive a free consultation. We look forward to making your vision a reality with the same dedication and craftsmanship that define our company.
 					</p>
 				</div>
 			</section>
-			<div className=" bg-gray-100 pb-8">
+			<div className=" bg-gray-100  pb-8 dark:bg-[#1B1D22]">
 				<Contact />
 			</div>
 		</>
