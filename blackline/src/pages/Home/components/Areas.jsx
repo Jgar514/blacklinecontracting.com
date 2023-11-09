@@ -5,7 +5,7 @@ import FillerHeading from "../../../components/ui/FillerHeading";
 
 function Areas() {
 	return (
-		<div className="mt-4 py-8 bg-gray-100 dark:bg-[#1B1D22] w-full flex flex-col items-center">
+		<div className="mt-4 py-8 bg-gray-200 dark:bg-[#1B1D22] w-full flex flex-col items-center">
 			<FillerHeading heading="Serving The DMV" p="We cover counties in Maryland, D.C. and Virginia" />
 
 			<div className="flex flex-col md:flex-row items-center justify-center">

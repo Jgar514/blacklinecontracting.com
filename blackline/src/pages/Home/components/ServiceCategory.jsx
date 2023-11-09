@@ -12,7 +12,7 @@ const ProjectCard = ({ name, img, link }) => {
 	};
 	return (
 		<div className="w-full  lg:w-1/3 p-4">
-			<div className="bg-white rounded-lg shadow-md overflow-hidden">
+			<div className=" rounded-lg shadow-md overflow-hidden">
 				<Link to={link}>
 					<div className="w-full h-80 md:h-96 bg-cover bg-center relative" onClick={scrollToTop} style={{ backgroundImage: `url(${img})` }}>
 						<div className="bg-black bg-opacity-50 text-white text-4xl py-4 px-4 absolute bottom-0 left-0 w-full text-center">{name}</div>
