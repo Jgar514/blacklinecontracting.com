@@ -2,7 +2,7 @@ import React from "react";
 
 function AreaItem({ state, counties, imgUrl, index }) {
 	return (
-		<div className="flex flex-col gap-4 w-full border-2 border-black bg-white dark:bg-[#23272F] py-4 ">
+		<div className="flex flex-col gap-4 w-full border-2 border-black dark:border-white bg-white dark:bg-dark py-4 ">
 			<div className="flex flex-col w-full gap-6 md:flex-row dark:text-white">
 				<div className="flex flex-col w-full items-center px-4 gap-4  ">
 					<div>

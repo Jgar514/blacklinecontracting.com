@@ -3,7 +3,7 @@ import { useKeenSlider } from "keen-slider/react";
 import { scif, cabinets, dumptruck, fans, fdicstudio, glassroom, podcaststudio } from "../../../assets";
 import FillerHeading from "../../../components/ui/FillerHeading";
 import Button from "../../../components/global/Button";
-
+import MiddleLine from "../../../components/ui/MiddleLine";
 function Slider() {
 	const [sliderRef] = useKeenSlider({
 		loop: false,
@@ -52,7 +52,5 @@ function Slider() {
 		</>
 	);
 }
-import { hero } from "../../../assets";
-import MiddleLine from "../../../components/ui/MiddleLine";
 
 export default Slider;

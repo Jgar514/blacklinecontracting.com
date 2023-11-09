@@ -18,7 +18,7 @@ function ResServicesSlider() {
 		slides: { perView: 2.25 },
 	});
 	return (
-		<div ref={sliderRef} className="keen-slider w-full h-fit flex flex-row overflow-hidden items-center py-2 md:h-80 mb-0  lg:h-80 gap-2 border-2 border-black dark:border-white border-t-0">
+		<div ref={sliderRef} className="keen-slider w-full h-fit flex flex-row overflow-hidden items-center bg-white py-2 md:h-80 mb-0  lg:h-80 gap-2 border-2 border-black dark:border-white dark:bg-lighterdark border-t-0">
 			{residentialservices.map((service) => (
 				<div className="keen-slider__slide ">
 					<SliderItem imgUrl={service.imgUrl} />

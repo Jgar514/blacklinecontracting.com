@@ -17,7 +17,7 @@ function App() {
 				<Navbar />
 
 				{/* Our Pages */}
-				<div className="w-full h-full bg-gray-100 mt-8 pt-10 dark:bg-[#1B1D22]">
+				<div className="w-full h-full bg-gray-200 mt-8 pt-10 dark:bg-[#1B1D22]">
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/home" element={<Home />} />

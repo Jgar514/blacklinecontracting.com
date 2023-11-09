@@ -68,7 +68,7 @@ const Contact = () => {
 			</div>
 
 			<div className="flex justify-center p-2 md:p-8">
-				<div className="border-4 px-4 py-8 rounded-xl bg-white dark:bg-[#22262F] border-black flex flex-col shadow-lg mb-8 mx-2 md:w-2/3 w-full lg:w-1/2 lg:h-auto ">
+				<div className="border-4 px-4 py-8 rounded-xl bg-white dark:bg-lighterdark border-black dark:border-gray-200 flex flex-col shadow-lg mb-8 mx-2 md:w-2/3 w-full lg:w-1/2 lg:h-auto ">
 					{/* form  heading */}
 					<h1 className="text-2xl dark:text-white font-bold -my-2 mb-2">Let's Work Together!</h1>
 
