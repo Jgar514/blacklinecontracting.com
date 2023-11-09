@@ -6,7 +6,7 @@ import Footer from "./components/global/Footer";
 import Gallery from "./pages/Gallery/Gallery";
 import Services from "./pages/Services/Services";
 import { Route, Routes } from "react-router-dom";
-import Contact from "./components/forms/Contact";
+
 import ContactPage from "./pages/Contact/ContactPage";
 import Test from "./pages/Test";
 import React, { useState, useEffect } from "react";

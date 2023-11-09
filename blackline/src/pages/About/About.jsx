@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/global/Header";
-import Contact from "../../components/forms/Contact";
+import Contact from "../../components/global/Contact";
 import { business } from "../../data";
 
 function About() {

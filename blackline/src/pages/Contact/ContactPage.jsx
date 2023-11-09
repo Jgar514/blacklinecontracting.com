@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/global/Header";
-import Contact from "../../components/forms/Contact";
+import Contact from "../../components/global/Contact";
 import MiddleLine from "../../components/ui/MiddleLine";
 import ThemeSwitcher from "../../components/global/themeswitcher";
 
