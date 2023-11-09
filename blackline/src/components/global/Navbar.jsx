@@ -33,9 +33,8 @@ const Nav = () => {
 		{ name: "CONTACT", link: "/contact" },
 	];
 
+	// Container for nav and ticker
 	return (
-		// container for nav and ticker
-
 		<div
 			className="
 									flex flex-col justify-between w-full pt-4

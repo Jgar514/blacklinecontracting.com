@@ -23,12 +23,12 @@ function Services() {
 
 	return (
 		<>
-			<div id="topOfServices bg-gray-100">
+			<div id="topOfServices bg-gray">
 				<Header title="Services" />
 
-				<div className="pt-10 bg-gray-100 dark:bg-[#1B1D22]">
+				<div className="pt-10 bg-gray dark:bg-dark">
 					<div className="mb-8 w-full">
-						<div className="bg-gray-100 dark:bg-[#1B1D22] dark:text-white">
+						<div className=" dark:text-white">
 							<h1 className="text-4xl  md:text-4xl font-bold text-center underline mb-4">Our Services</h1>
 							<p className="text-lg text-gray-600 text-center mb-8 dark:text-white">Explore our wide range of commercial and residential services.</p>
 						</div>
@@ -45,9 +45,9 @@ function Services() {
 								</div>
 								{/* Move it inside this section */}
 							</div>
-							<div className="mt-0 py-6 dark:bg-[#1B1D22] bg-gray-100  " id="middleOfServices">
-								<h2 className="text-3xl font-bold underline mb-0 px-4 py-4 bg-white w-fit border-2 dark:text-white dark:bg-[#22262F] rounded-t-2xl">Residential</h2>
-								<div>
+							<div className="mt-0 py-6 dark:bg- bg-gray-100  " id="middleOfServices">
+								<h2 className="text-3xl font-bold underline mb-0 px-4 py-4 bg-white w-fit border-2 dark:text-white dark:bg-lighterdark rounded-t-2xl">Residential</h2>
+								<div className="border-2 border-black dark:border-white">
 									<ul className="grid grid-cols-2 gap-2 pl-6 py-6 bg-white dark:bg-[#22262F] dark:text-white ">{reslistItems}</ul>
 									<div className="bg-white pb-4 dark:bg-[#22262F]">
 										<ResServicesSlider />
