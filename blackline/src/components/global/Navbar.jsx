@@ -35,19 +35,10 @@ const Nav = () => {
 
 	// Container for nav and ticker
 	return (
-		<div
-			className="
-									flex flex-col justify-between w-full pt-4
-									bg-white dark:bg-dark dark:text-white
-									fixed top-0 left-0  z-50 shadow-md"
-		>
+		<div className="flex flex-col justify-between w-full pt-4 bg-white dark:bg-dark dark:text-white fixed top-0 left-0  z-50 shadow-md">
 			{/* Container for main part of nav */}
 
-			<div
-				className="
-									flex flex-row justify-between items-center
-									pb-2 lg:pb-2 px-6 lg:px-8 "
-			>
+			<div className="flex flex-row justify-between items-center pb-2 lg:pb-2 px-6 lg:px-8 ">
 				{/* Upper Left Logo/Business Name and Number */}
 
 				<div className="flex lg:w-1/2 md:justify-center lg:pr-8">
